@@ -1,0 +1,256 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-11-18T13:49:26.402Z",
+        "line": 5,
+        "name": "Explosion code functionality",
+        "description": "",
+        "id": "explosion-code-functionality;explosion-code-functionality",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 165736205000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User select clinic from dropdown after successful login",
+            "match": {
+              "location": "com.QA_TechM.StepDefinition.QA_TechM_dashboardSteps.user_select_clinic_from_dropdown_after_successful_login()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 5174144200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User clicks on Hamburger main menu",
+            "match": {
+              "location": "com.QA_TechM.StepDefinition.QA_TechM_scheduleSetUpSteps.user_clicks_on_hamburger_main_menu()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 24896672600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on practice settings",
+            "match": {
+              "location": "com.QA_TechM.StepDefinition.QA_TechM_scheduleSetUpSteps.user_clicks_on_practice_settings()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 21625509700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on iTP sub Tab",
+            "match": {
+              "location": "com.QA_TechM.StepDefinition.QA_TechM_explosionCodeSteps.user_clicks_on_i_tp_sub_tab()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10197149600,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on sheet1 plus icon",
+            "match": {
+              "location": "com.QA_TechM.StepDefinition.QA_TechM_explosionCodeSteps.user_clicks_on_sheet1_plus_icon()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2340112500,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "user slect color",
+            "match": {
+              "location": "com.QA_TechM.StepDefinition.QA_TechM_explosionCodeSteps.user_slect_color()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 33878386600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter \"Duration\", \"InsuranceCode\" and \"price\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Duration\"",
+                  "offset": 11
+                },
+                {
+                  "val": "\"InsuranceCode\"",
+                  "offset": 23
+                },
+                {
+                  "val": "\"price\"",
+                  "offset": 43
+                }
+              ],
+              "location": "com.QA_TechM.StepDefinition.QA_TechM_explosionCodeSteps.user_enter_and(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 367654600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User select value from Tooth Selection Type Dropdown",
+            "match": {
+              "location": "com.QA_TechM.StepDefinition.QA_TechM_explosionCodeSteps.user_select_value_from_tooth_selection_type_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 313252400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User select chart action from dropdown",
+            "match": {
+              "location": "com.QA_TechM.StepDefinition.QA_TechM_explosionCodeSteps.user_select_chart_action_from_dropdown()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "error_message": "org.openqa.selenium.TimeoutException: java.util.concurrent.TimeoutException\nBuild info: version: \u00274.0.0\u0027, revision: \u00273a21814679\u0027\nSystem info: host: \u0027C40LAP-13124A\u0027, ip: \u0027192.168.1.5\u0027, os.name: \u0027Windows 10\u0027, os.arch: \u0027amd64\u0027, os.version: \u002710.0\u0027, java.version: \u002717\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCommand: [58d9229255218e8867893633c9b76981, findElement {using\u003dxpath, value\u003d(.//span[@class\u003d\u0027fr grey_circle_icon explosion-checkbox\u0027])[1326]}]\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\\Users\\jyoti\\AppData\\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:59860}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59860/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}\nSession ID: 58d9229255218e8867893633c9b76981\r\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:72)\r\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\r\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\r\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)\r\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\r\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:119)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)\r\n\tat com.QA_TechM.pages.QA_TechM_explosionCodePage.SelectExplosionCodeRadioBtN(QA_TechM_explosionCodePage.java:99)\r\n\tat com.QA_TechM.StepDefinition.QA_TechM_explosionCodeSteps.user_select_explosion_code_radio_button(QA_TechM_explosionCodeSteps.java:49)\r\n\tat ✽.User select Explosion code radio button(file:///C:/Users/jyoti/eclipse-workspace/dov_automationui/src/test/resources/Features/QA_TechM_explosionCode.feature:17)\r\nCaused by: java.util.concurrent.TimeoutException\r\n\tat java.base/java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)\r\n\tat java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)\r\n\tat org.asynchttpclient.netty.NettyResponseFuture.get(NettyResponseFuture.java:206)\r\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.makeCall(NettyHttpHandler.java:66)\r\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\r\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\r\n\tat org.openqa.selenium.remote.http.netty.NettyHttpHandler.execute(NettyHttpHandler.java:51)\r\n\tat org.openqa.selenium.remote.http.AddSeleniumUserAgent.lambda$apply$0(AddSeleniumUserAgent.java:42)\r\n\tat org.openqa.selenium.remote.http.Filter.lambda$andFinally$1(Filter.java:56)\r\n\tat org.openqa.selenium.remote.http.netty.NettyClient.execute(NettyClient.java:119)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:181)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)\r\n\tat org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)\r\n\tat org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)\r\n\tat org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)\r\n\tat org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)\r\n\tat jdk.proxy2/jdk.proxy2.$Proxy21.click(Unknown Source)\r\n\tat com.QA_TechM.pages.QA_TechM_explosionCodePage.SelectExplosionCodeRadioBtN(QA_TechM_explosionCodePage.java:99)\r\n\tat com.QA_TechM.StepDefinition.QA_TechM_explosionCodeSteps.user_select_explosion_code_radio_button(QA_TechM_explosionCodeSteps.java:49)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)\r\n\tat java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.base/java.lang.reflect.Method.invoke(Method.java:568)\r\n\tat io.cucumber.java.Invoker.doInvoke(Invoker.java:66)\r\n\tat io.cucumber.java.Invoker.invoke(Invoker.java:24)\r\n\tat io.cucumber.java.AbstractGlueDefinition.invokeMethod(AbstractGlueDefinition.java:47)\r\n\tat io.cucumber.java.JavaStepDefinition.execute(JavaStepDefinition.java:29)\r\n\tat io.cucumber.core.runner.CoreStepDefinition.execute(CoreStepDefinition.java:66)\r\n\tat io.cucumber.core.runner.PickleStepDefinitionMatch.runStep(PickleStepDefinitionMatch.java:63)\r\n\tat io.cucumber.core.runner.ExecutionMode$1.execute(ExecutionMode.java:10)\r\n\tat io.cucumber.core.runner.TestStep.executeStep(TestStep.java:92)\r\n\tat io.cucumber.core.runner.TestStep.run(TestStep.java:64)\r\n\tat io.cucumber.core.runner.PickleStepTestStep.run(PickleStepTestStep.java:51)\r\n\tat io.cucumber.core.runner.TestCase.run(TestCase.java:104)\r\n\tat io.cucumber.core.runner.Runner.runPickle(Runner.java:71)\r\n\tat io.cucumber.junit.PickleRunners$NoStepDescriptions.run(PickleRunners.java:151)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:135)\r\n\tat io.cucumber.junit.FeatureRunner.runChild(FeatureRunner.java:27)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:199)\r\n\tat io.cucumber.junit.Cucumber.runChild(Cucumber.java:90)\r\n\tat org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)\r\n\tat org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)\r\n\tat io.cucumber.junit.Cucumber$RunCucumber.evaluate(Cucumber.java:234)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:413)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:93)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:40)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:529)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:756)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:452)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:210)\r\n",
+              "duration": 180020497500,
+              "status": "failed"
+            },
+            "line": 17,
+            "name": "User select Explosion code radio button",
+            "match": {
+              "location": "com.QA_TechM.StepDefinition.QA_TechM_explosionCodeSteps.user_select_explosion_code_radio_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "User enters \"InsuranceCode\", \"Description\", \"price\" and \"Duration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"InsuranceCode\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Description\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"price\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"Duration\"",
+                  "offset": 56
+                }
+              ],
+              "location": "com.QA_TechM.StepDefinition.QA_TechM_explosionCodeSteps.user_enters_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "User clicks on clear button",
+            "match": {
+              "location": "com.QA_TechM.StepDefinition.QA_TechM_explosionCodeSteps.user_clicks_on_clear_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 20,
+            "name": "User enters \"InsuranceCode\", \"Description\", \"price\" and \"Duration\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"InsuranceCode\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"Description\"",
+                  "offset": 29
+                },
+                {
+                  "val": "\"price\"",
+                  "offset": 44
+                },
+                {
+                  "val": "\"Duration\"",
+                  "offset": 56
+                }
+              ],
+              "location": "com.QA_TechM.StepDefinition.QA_TechM_explosionCodeSteps.user_enters_and(java.lang.String,java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 21,
+            "name": "Users click on save button",
+            "match": {
+              "location": "com.QA_TechM.StepDefinition.QA_TechM_explosionCodeSteps.users_click_on_save_button()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@smoke"
+          },
+          {
+            "name": "@ExplosionCode"
+          }
+        ]
+      }
+    ],
+    "name": "Explosion code functionality",
+    "description": "",
+    "id": "explosion-code-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/QA_TechM_explosionCode.feature",
+    "tags": [
+      {
+        "name": "@smoke",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
